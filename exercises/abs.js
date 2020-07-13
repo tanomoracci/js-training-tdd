@@ -11,12 +11,14 @@
 
 // Your code:
 
-function abs(numb) {
+let abs = function(number){
     
-if (numb < 0){
-    return numb + numb*2;
+if (number < 0) {
+    return number - number - number;
+} else {
+    return number;
 }
-return numb;
+}
 
 //* Begin of tests
 const assert = require('assert');
