@@ -8,6 +8,18 @@
 
 // Your code:
 
+
+
+let total = function(array){
+    
+    let tot = 0;
+    for (let i=0; i < array.length; i++){
+        tot = tot + array[i];
+        
+    }
+    return tot;
+}
+
 //* Begin of tests
 const assert = require('assert');
 
